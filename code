@@ -1,0 +1,8 @@
+> library(readxl)
+> data_file <- read_excel("C:/Users/Jeramil/Desktop/data file.xls")
+> View(data_file)
+> mydatasheet<-read_excel("C:/Users/Jeramil/Desktop/data file.xls")
+> mean(mydatasheet$IHHLTotalAsPerDetails)
+[1] 576.2
+> var(mydatasheet$IHHLTotalAsPerDetails)
+[1] 41546.89
